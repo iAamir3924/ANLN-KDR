@@ -1,0 +1,51 @@
+
+
+*******************************             基因表达数据：
+
+gene_id：基因的唯一标识符，通常是根据一种或多种基因组学数据库中的命名规则生成的。
+gene_name：基因的常用名称或符号，通常由人类基因组学项目或其他研究机构分配。
+gene_type：基因的类型或功能分类，常见的类型包括蛋白质编码基因 (protein_coding)、非编码RNA基因 (non_coding RNA) 等。
+unstranded：不分链的基因表达计数或测量值，可能是在不区分转录链方向的情况下测得的表达量。
+stranded_first：在分链方向的第一个转录本中测得的表达计数或测量值。
+stranded_second：在分链方向的第二个转录本中测得的表达计数或测量值。
+tpm_unstranded：每百万次测序片段中的基因表达量，以 TPM (Transcripts Per Million) 为单位。
+fpkm_unstranded：每百万次测序片段中的基因表达量，以 FPKM (Fragments Per Kilobase of transcript per Million mapped reads) 为单位，考虑到了基因长度。
+fpkm_uq_unstranded：去重的 FPKM (Unique Quantification) 表达值，通常是在多个样本或实验之间进行归一化和标准化后得到的表达值。
+
+
+*******************************             患者临床数据：
+
+Complete TCGA ID：TCGA（The Cancer Genome Atlas）项目中的患者标识符，通常由 TCGA 项目组分配，用于唯一标识每位参与者。
+Gender：患者的性别，可能是男性或女性。     <=========
+Age at Initial Pathologic Diagnosis：患者在初次病理诊断时的年龄，通常以年为单位。       <=========
+ER Status：雌激素受体（Estrogen Receptor）的状态，通常是 Positive（阳性）或 Negative（阴性）。
+PR Status：孕激素受体（Progesterone Receptor）的状态，通常是 Positive（阳性）或 Negative（阴性）。
+HER2 Final Status：HER2 受体（Human Epidermal Growth Factor Receptor 2）的最终状态，通常是 Positive（阳性）或 Negative（阴性）。
+Tumor：原发肿瘤的大小或分期信息。
+Tumor--T1 Coded：原发肿瘤的编码信息，可能是一个分类系统的代码。
+Node：淋巴结的状态或数量。
+Node-Coded：淋巴结状态的编码信息。
+Metastasis：转移瘤的存在与否。
+Metastasis-Coded：转移瘤的编码信息。
+AJCC Stage：美国癌症联合委员会分期系统的病理分期。   <=========
+Converted Stage：转化后的分期信息。
+Survival Data Form：生存数据的形式或来源。
+Vital Status：患者的生存状态，通常是 Alive（存活）或 Deceased（死亡）。
+Days to Date of Last Contact：距离最后一次联系的天数。
+Days to date of Death：距离死亡日期的天数。         <=========
+OS event：生存分析中的事件指标。
+OS Time：生存分析中的时间指标。
+PAM50 mRNA：PAM50 基因表达分类系统的 mRNA 分类。
+SigClust Unsupervised mRNA：SigClust 无监督基因表达聚类。
+SigClust Intrinsic mRNA：SigClust 内在基因表达聚类。
+miRNA Clusters：miRNA 表达聚类。
+methylation Clusters：甲基化水平聚类。
+RPPA Clusters：蛋白质组学数据聚类。
+CN Clusters：拷贝数变异聚类。
+Integrated Clusters (with PAM50)：整合聚类（包含 PAM50 数据）。
+Integrated Clusters (no exp)：整合聚类（无表达数据）。
+Integrated Clusters (unsup exp)：整合聚类（无监督表达数据）。
+
+
+
+

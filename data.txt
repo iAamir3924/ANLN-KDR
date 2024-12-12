@@ -1,0 +1,130 @@
+
+{http://tcga.nci/bcr/xml/administration/2.7}admin {}
+bcr: 	 Nationwide Children's Hospital
+file_uuid: 	 99D58D6E-0209-4ADF-8993-A84F7B221127
+batch_number: 	 109.89.0
+project_code: 	 TCGA
+disease_code: 	 BRCA
+day_of_dcc_upload: 	 22
+month_of_dcc_upload: 	 12
+year_of_dcc_upload: 	 2016
+patient_withdrawal:
+
+program: 	 None
+dbgap_registration_code: 	 None
+{http://tcga.nci/bcr/xml/clinical/brca/2.7}patient {}
+additional_studies: 	 None
+tumor_tissue_site: 	 Breast
+tumor_tissue_site_other: 	 None
+other_dx: 	 No
+gender: 	 FEMALE
+vital_status: 	 Alive
+days_to_birth: 	 -12715
+days_to_last_known_alive: 	 None
+days_to_death: 	 None
+days_to_last_followup: 	 0
+race_list:
+
+bcr_patient_barcode: 	 TCGA-C8-A1HO
+tissue_source_site: 	 C8
+patient_id: 	 A1HO
+bcr_patient_uuid: 	 b3354b72-2637-4edc-9a95-e55801d3ac13
+history_of_neoadjuvant_treatment: 	 No
+informed_consent_verified: 	 YES
+icd_o_3_site: 	 C50.9
+icd_o_3_histology: 	 8500/3
+icd_10: 	 C50.9
+days_to_initial_pathologic_diagnosis: 	 0
+age_at_initial_pathologic_diagnosis: 	 34
+year_of_initial_pathologic_diagnosis: 	 2010
+ethnicity: 	 NOT HISPANIC OR LATINO
+person_neoplasm_cancer_status: 	 TUMOR FREE
+primary_lymph_node_presentation_assessment: 	 NO
+lymph_node_examined_count: 	 None
+er_detection_method_text: 	 None
+pgr_detection_method_text: 	 None
+anatomic_neoplasm_subdivisions:
+
+her2_neu_chromosone_17_signal_ratio_value: 	 None
+axillary_lymph_node_stage_method_type: 	 None
+axillary_lymph_node_stage_other_method_descriptive_text: 	 None
+breast_carcinoma_surgical_procedure_name: 	 None
+breast_neoplasm_other_surgical_procedure_descriptive_text: 	 None
+breast_carcinoma_primary_surgical_procedure_name: 	 None
+surgical_procedure_purpose_other_text: 	 None
+histological_type: 	 Infiltrating Ductal Carcinoma
+histological_type_other: 	 None
+menopause_status: 	 Pre (<6 months since LMP AND no prior bilateral ovariectomy AND not on estrogen replacement)
+breast_carcinoma_progesterone_receptor_status: 	 Positive
+cytokeratin_immunohistochemistry_staining_method_micrometastasis_indicator: 	 None
+breast_carcinoma_immunohistochemistry_er_pos_finding_scale: 	 None
+immunohistochemistry_positive_cell_score: 	 None
+her2_immunohistochemistry_level_result: 	 None
+breast_cancer_surgery_margin_status: 	 None
+margin_status: 	 Negative
+initial_pathologic_diagnosis_method: 	 Tumor resection
+init_pathology_dx_method_other: 	 None
+lab_procedure_her2_neu_in_situ_hybrid_outcome_type: 	 None
+breast_carcinoma_estrogen_receptor_status: 	 Positive
+lab_proc_her2_neu_immunohistochemistry_receptor_status: 	 Negative
+number_of_lymphnodes_positive_by_ihc: 	 None
+number_of_lymphnodes_positive_by_he: 	 None
+pos_finding_progesterone_receptor_other_measurement_scale_text: 	 Allred Score 5
+positive_finding_estrogen_receptor_other_measurement_scale_text: 	 Allred Score 7
+her2_erbb_pos_finding_cell_percent_category: 	 None
+pos_finding_her2_erbb2_other_measurement_scale_text: 	 None
+her2_erbb_method_calculation_method_text: 	 None
+her2_neu_and_centromere_17_copy_number_analysis_input_total_number_count: 	 None
+her2_and_centromere_17_positive_finding_other_measurement_scale_text: 	 None
+her2_erbb_pos_finding_fluorescence_in_situ_hybridization_calculation_method_text: 	 None
+tissue_prospective_collection_indicator: 	 YES
+tissue_retrospective_collection_indicator: 	 NO
+fluorescence_in_situ_hybridization_diagnostic_procedure_chromosome_17_signal_result_range: 	 None
+first_nonlymph_node_metastasis_anatomic_sites:
+
+er_level_cell_percentage_category: 	 None
+progesterone_receptor_level_cell_percent_category: 	 None
+distant_metastasis_present_ind2: 	 None
+metastatic_breast_carcinoma_estrogen_receptor_status: 	 None
+metastatic_breast_carcinoma_estrogen_receptor_level_cell_percent_category: 	 None
+metastatic_breast_carcinoma_immunohistochemistry_er_pos_cell_score: 	 None
+pos_finding_metastatic_breast_carcinoma_estrogen_receptor_other_measuremenet_scale_text: 	 None
+metastatic_breast_carcinoma_estrogen_receptor_detection_method_text: 	 None
+metastatic_breast_carcinoma_progesterone_receptor_status: 	 None
+metastatic_breast_carcinoma_lab_proc_her2_neu_immunohistochemistry_receptor_status: 	 None
+metastatic_breast_carcinoma_progesterone_receptor_level_cell_percent_category: 	 None
+metastatic_breast_carcinoma_immunohistochemistry_pr_pos_cell_score: 	 None
+metastatic_breast_carcinoma_pos_finding_progesterone_receptor_other_measure_scale_text: 	 None
+metastatic_breast_carcinoma_progesterone_receptor_detection_method_text: 	 None
+metastatic_breast_carcinoma_her2_erbb_pos_finding_cell_percent_category: 	 None
+metastatic_breast_carcinoma_erbb2_immunohistochemistry_level_result: 	 None
+metastatic_breast_carcinoma_pos_finding_her2_erbb2_other_measure_scale_text: 	 None
+metastatic_breast_carcinoma_her2_erbb_method_calculation_method_text: 	 None
+metastatic_breast_carcinoma_lab_proc_her2_neu_in_situ_hybridization_outcome_type: 	 None
+metastatic_breast_carcinoma_fluorescence_in_situ_hybridization_diagnostic_proc_centromere_17_signal_result_range: 	 None
+her2_neu_and_centromere_17_copy_number_metastatic_breast_carcinoma_analysis_input_total_number_count: 	 None
+metastatic_breast_carcinoma_her2_neu_chromosone_17_signal_ratio_value: 	 None
+metastatic_breast_carcinoma_pos_finding_other_scale_measurement_text: 	 None
+metastatic_breast_carcinoma_her2_erbb_pos_finding_fluorescence_in_situ_hybridization_calculation_method_text: 	 None
+her2_neu_metastatic_breast_carcinoma_copy_analysis_input_total_number: 	 None
+her2_neu_breast_carcinoma_copy_analysis_input_total_number: 	 None
+breast_carcinoma_immunohistochemistry_progesterone_receptor_pos_finding_scale: 	 None
+breast_carcinoma_immunohistochemistry_pos_cell_score: 	 None
+stage_event:
+
+postoperative_rx_tx: 	 None
+radiation_therapy: 	 None
+new_tumor_events:
+
+day_of_form_completion: 	 12
+month_of_form_completion: 	 7
+year_of_form_completion: 	 2011
+follow_ups:
+
+drugs:
+
+radiations: 	 None
+
+
+
+
